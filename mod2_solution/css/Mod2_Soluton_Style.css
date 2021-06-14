@@ -3,7 +3,7 @@
 }
 
 /********** Base styles **********/
-html {
+* {
   box-sizing: border-box;
 }
 
@@ -39,8 +39,6 @@ p {
 
 .content {
   color: #frf;
- 
-  border: 1px solid #000;
  
   background-color: #FF5733;
 }
@@ -187,7 +185,5 @@ p {
     width: 100%;
   }
 }
-/********** Helpers **********/
-.clear {
-  clear: both;
-}
+
+
